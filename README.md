@@ -28,7 +28,15 @@ tabulate
 ### Running 
 
 Code is pretty much self-explanatory. Just change the ```Predictions``` and ```epochs``` values to save your results in different files.  
+### Results
 
+In general, results improved as number of epochs was increased. The network performace could be better with a deeper network. Average error is the average of the difference between the predicted and actual values of the impedance.
+
+| Epochs  | Average Error |
+| ------------- | ------------- |
+| 100  |  7.49 |
+| 500  | 1.27  |
+| 1000  | 0.57  |
 
 ### Acknowledgements
 This was inspired by [this paper](https://ieeexplore.ieee.org/document/4763072). However, the source code for the same was not released so I created the network using Keras. 
