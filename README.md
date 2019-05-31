@@ -6,7 +6,7 @@ As we know, a neural network can learn the properties of a function during train
 ## Getting Started 
 
 ### Coplanar Waveguide Impedance Theory and Formulae
-The theory for the coplanar waveguide is given on [Microwaves101] (https://www.microwaves101.com/encyclopedias/coplanar-waveguide). They also have an [online calculator] (https://www.microwaves101.com/calculators/864-coplanar-waveguide-calculator) to find the parameters of the waveguide. However, [this website] (https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm) gives the formulae to calculate the impedance of the waveguide, alongwith a calculator. 
+The theory for the coplanar waveguide is given on [Microwaves101](https://www.microwaves101.com/encyclopedias/coplanar-waveguide). They also have an [online calculator](https://www.microwaves101.com/calculators/864-coplanar-waveguide-calculator) to find the parameters of the waveguide. However, [this website](https://chemandy.com/calculators/coplanar-waveguide-with-ground-calculator.htm) gives the formulae to calculate the impedance of the waveguide, alongwith a calculator. 
 
 ### Dataset Generation
 Since this is a regression problem, where the network needs to learn elliptical functions, it was essential to generate a dataset to train the network. I generated the test set using the CPW in-built functions in the RF Toolbox in Matlab. The code for the same is in the ```Generate.m``` file.
@@ -31,4 +31,4 @@ Code is pretty much self-explanatory. Just change the ```Predictions``` and ```e
 
 
 ### Acknowledgements
-This was inspired by [this paper] (https://ieeexplore.ieee.org/document/4763072). However, the source code for the same was not released so I created the network using Keras. 
+This was inspired by [this paper](https://ieeexplore.ieee.org/document/4763072). However, the source code for the same was not released so I created the network using Keras. 
